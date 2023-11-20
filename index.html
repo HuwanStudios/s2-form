@@ -1,0 +1,140 @@
+	
+<!DOCTYPE html>
+
+<head>
+
+	<title>MSIMBO Solution</title>
+
+</head>
+
+<body style="background-color:Lightgray;"> 
+	
+<form action="" method="get" class="form-example">
+
+
+  <fieldset>
+    <legend><h2>MSIMBO Forms:</h2></legend>
+
+
+	<!-- This is a First and Last Name -->
+
+ 	<fieldset>
+  	 <legend><h2>Full Name - First & Last:</h2></legend>
+ 	 <div class="form-example">
+  	    <label for="fname">First name:</label>
+ 	    <input type="text" id="fname" name="fname" value="John">
+ 	    <label for="lname">Last name:</label>
+ 	    <input type="text" id="lname" name="lname" value="Doe">
+ 	 </div>
+        </fieldset>
+
+	<!-- This is a First and Last Name -->
+
+ 	<fieldset>
+  	 <legend><h2>Email:</h2></legend>
+ 	 <div class="form-example">
+  	  <label for="email">Enter your email: </label>
+  	  <input type="email" name="email" id="email" required />
+ 	 </div>
+        </fieldset>
+
+	<!-- This is for your phone number -->
+
+ 	<fieldset>
+  	 <legend><h2>Phone Number:</h2></legend>
+	 <div class="form-example">
+  	  <label for="phone">Enter your number: </label>
+  	  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-	[0-9]		{4}" required />
+ 	 </div>
+        </fieldset>
+
+	<!-- Are you a learner -->
+
+ 	<fieldset>
+  	 <legend><h2>Student:</h2></legend>
+	 <div class="form-example">
+	 <p>Do you prefer to learn?:</p>
+	   <input type="radio" id="yes" name="student" value"Yes!">
+	   <label for="yes">Yes!</label>
+	   <input type="radio" id="no" name="student" value"No!">
+	   <label for="yes">No!</label>
+	 </div>
+        </fieldset>
+
+	<!-- Resident of Massachusetts -->
+
+ 	<fieldset>
+  	 <legend><h2>Massachusetts Resident?:</h2></legend>
+	 <div class="form-example">
+	 <p>Are you a resident of Massachusetts?:</p>
+	   <input type="checkbox" id="answer1" name="answer1" value="Yes">
+ 	   <label for="answer1"> Yes!</label>
+ 	   <input type="checkbox" id="answer2" name="answer2" value="No">
+ 	   <label for="answer2"> No!</label>
+	 </div>
+        </fieldset>
+
+	<!-- This is today's date -->
+
+ 	<fieldset>
+  	 <legend><h2>Date:</h2></legend>
+	 <div class="form-example">
+  	  <label for="start">Enter today's date:</label>
+		<input type="date" id="start" name="trip-start" 	value="2018-07-22" 		min="2018-01-01" max="2023-12-31" />
+ 	 </div>
+        </fieldset>
+
+	<!-- This is your photo upload -->
+
+ 	<fieldset>
+  	 <legend><h2>Photo:</h2></legend>
+	 <div class="form-example">
+	 <p>Click on the "Choose File" button to upload your image:</p>
+   	   <input type="file" id="myFile" name="filename">
+	 </div>
+        </fieldset>
+
+	<!-- Add slider/range -->
+
+ 	<fieldset>
+  	 <legend><h2>Rate this Form</h2></legend>
+	 <div class="form-example">
+	 <p>How Easy Was This Form - On a scale from 0 - 100?</p>
+  		<label for="rate">Rate (between 0 and 100):</label>
+ 		<input type="range" id="vol" name="rate" min="0" max="100">
+ 	  <br><br>
+	  </div>
+ 	 </fieldset>
+
+
+
+	<!-- This is your resume upload -->
+
+ 	<fieldset>
+  	 <legend><h2>Resume:</h2></legend>
+	 <div class="form-example">
+	 <p>Click on the "Choose FIle" button to upload your resume:</p>
+   	   <input type="file" id="myFile" name="filename">
+	 </div>
+        </fieldset>
+
+	<!-- This is your textarea -->
+
+ 	<fieldset>
+  	 <legend><h2>Textarea</h2></legend>
+	<p>Submit a comment:</p>
+	<textarea name="comment" rows="5" cols="50"> Please type something nice.</textarea>
+	</fieldset>
+
+	<!-- Submit Button -->
+
+ 	 <div class="form-example" style="text-align:center;">
+  	  <input type="submit" value="Subscribe!"  />
+ 	 </div>
+
+	</form>
+  </fieldset>
+
+</body>
+
+</html>
